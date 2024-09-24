@@ -1,3 +1,5 @@
+# dependency
+
 # 1:1 채팅에 실제 사용한 코드
 
 WebSocketConfig.java
