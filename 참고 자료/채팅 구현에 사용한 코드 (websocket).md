@@ -1,5 +1,44 @@
 # dependency
-
+```xml
+		<!-- websocket -->
+		<dependency>
+           <groupId>org.springframework</groupId>
+           <artifactId>spring-websocket</artifactId>
+           <version>${org.springframework-version}</version>
+		</dependency>
+		<!-- sockejs-client & stomp-websocket -->
+		<!-- stomp-websocket은 spring-websocket에 포함 되어있다고 한다 -->
+		<dependency>
+		   <groupId>org.webjars</groupId>
+		   <artifactId>sockjs-client</artifactId>
+		   <version>1.1.2</version>
+		</dependency>
+		<dependency>
+		   <groupId>org.webjars</groupId>
+		   <artifactId>stomp-websocket</artifactId>
+		   <version>2.3.3</version>
+		</dependency>
+		
+		<!--  JSON라이브러리 -->
+		<dependency>
+		    <groupId>com.fasterxml.jackson.core</groupId>
+		    <artifactId>jackson-databind</artifactId>
+		    <version>2.11.3</version>
+		</dependency>
+	    <!-- GSON 라이브러리 -->
+		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		<dependency>
+		    <groupId>com.google.code.gson</groupId>
+		    <artifactId>gson</artifactId>
+		    <version>2.9.0</version>
+		</dependency>
+		<!-- JSON -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180813</version>
+		</dependency>
+```
 # 1:1 채팅에 실제 사용한 코드
 
 WebSocketConfig.java
