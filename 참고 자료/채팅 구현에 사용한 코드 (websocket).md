@@ -92,6 +92,7 @@ function connect(chatRoom_json){
         // roomID를 구독 /send/roomID로 보내진 메세지를 받음
         stompClient.subscribe('/topic/' + chatRoomGlobal.chat_room_id, function (chatMessage){
         	//console.log('chatMessage: ', chatMessage);
+        	//메시지를 받았을 때 실행되는 메세지를 ui로 만들어주는 함수
             showChat(JSON.parse(chatMessage.body));
         });
         
