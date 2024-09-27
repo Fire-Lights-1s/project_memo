@@ -98,6 +98,22 @@ function connect(chatRoom_json){
         $('#inputMessage').css('visibility', 'visible');
     });
 }
+
+//채팅 보내기
+function sendChat() {
+	let sendMessage = $("#message").val();
+    if (sendMessage != "" && sendMessage.replaceAll("\n","") != "" ) {
+    	let data = {
+    	"message_type":"MESSAGE",
+    	"user_id": userId,
+    	"message":sendMessage,
+    	}
+    	
+        stompClient.send("/send/"+chatRoomGlobal.chat_room_id, {},
+            JSON.stringify(data));
+        $("#message").val('');
+    }
+}
 ```
 
 
