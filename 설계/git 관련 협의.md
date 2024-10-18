@@ -10,3 +10,6 @@
 - Windows
 - Gradle?
 - Maven?
+- Git?
+- NetBeans?
+- VisualStudioCode?
