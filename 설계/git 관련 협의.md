@@ -13,3 +13,8 @@
 - Git?
 - NetBeans?
 - VisualStudioCode?
+
+# 폴더 경로
+- inc : 공통 화면 폴더
+	- 헤더 및 메뉴
+- 
