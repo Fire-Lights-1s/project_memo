@@ -5,8 +5,11 @@
 
 
 
->출처 양방향 엔티티 주의 사항
->https://colabear754.tistory.com/142
+>JPA 연관관계 매핑
+>주소 : https://colevelup.tistory.com/41
 
->출처 양방향 엔티티 저장
->https://os94.tistory.com/195
+>양방향 엔티티 주의 사항
+>주소 : https://colabear754.tistory.com/142
+
+>양방향 엔티티 저장
+>주소 : https://os94.tistory.com/195
